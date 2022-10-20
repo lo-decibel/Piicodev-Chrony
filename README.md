@@ -25,7 +25,7 @@ Using the Piicodev RTC, we can keep the current time, and use a Raspberry Pi as 
 
 The logic of the script was simple: If an external NTP server is available, and Chrony is in sync, then Chrony's time is deemed correct and the script will update the Piicodev RTC with the current time.
 
-If internet access is unavailable, and the system time is earlier than then the time reported on the RTC, then the system time is out of sync. The script will then update Chrony with the time on the RTC, which should in then turn update the system time.
+If internet access is unavailable, and the system time is earlier than then the time reported on the RTC, then the system time is out of sync. The script will then update Chrony with the time on the RTC, which should in then turn update the system time. Any other devices configured to use the Chrony server as a fallback will also stay in sync.
 
 <p align="center" width="100%">
 	<img src="images/logic.png"> 
