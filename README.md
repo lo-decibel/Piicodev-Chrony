@@ -52,7 +52,7 @@ Then run with,
 docker compose up -d
 ```
 
-## Point 
+## Point your devices to Chrony NTP
 
 The final step is to point your devices to Chrony. On a Raspberry Pi, run
 
