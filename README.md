@@ -15,11 +15,11 @@ Using the Piicodev RTC, we can keep the current time, and use a Raspberry Pi as 
 
 ## You will need
 
-	* A Raspberry Pi (note this won't work on Raspberry Pi Pico)
-	* [Piicodev RTC module](https://core-electronics.com.au/piicodev-real-time-clock-rv3028.html)
-	* [Piicodev Raspberry Pi adapter](https://core-electronics.com.au/piicodev-adapter-for-raspberry-pi.html)
-	* Piicodev, Qwiic or Stemma cable
-	* A working install of Docker on your Raspberry Pi
+* A Raspberry Pi (note this won't work on Raspberry Pi Pico)
+* [Piicodev RTC module](https://core-electronics.com.au/piicodev-real-time-clock-rv3028.html)
+* [Piicodev Raspberry Pi adapter](https://core-electronics.com.au/piicodev-adapter-for-raspberry-pi.html)
+* Piicodev, Qwiic or Stemma cable
+* A working install of Docker on your Raspberry Pi
 
 ### How it works
 
