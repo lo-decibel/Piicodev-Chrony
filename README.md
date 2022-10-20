@@ -41,7 +41,7 @@ Clone the repository, and build with
 ```sh
 git clone http://github.com/lo-decibel/Piicodev-Chrony
 cd Piicodev-Chrony
-docker build -t piicodev-chrony .
+docker build -t chrony-piico .
 ```
 
 You will need to change the `TZ` variable in `docker-compose.yml` to your local timezone. Optionally, you can specify a different external NTP server.
