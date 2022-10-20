@@ -1,0 +1,17 @@
+version: '3.5'
+services:
+  chrony-piicodev:
+    container_name: chrony-piico
+    image: compute:5000/chrony-piico:arm64
+    volumes:
+      - ./app:/piicodev
+    environment:
+      - SYNC_RTC=false
+      - ALLOW_CIDR=0.0.0.0/0
+      - TZ=Australia/Sydney
+      - NTP_SERVER=pool.ntp.org
+    cap_add:
+      - SYS_TIME
+    restart: always
+    privileged: true
+    network_mode: host
