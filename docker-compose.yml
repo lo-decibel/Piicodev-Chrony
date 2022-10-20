@@ -2,7 +2,7 @@ version: '3.5'
 services:
   chrony-piicodev:
     container_name: chrony-piico
-    image: compute:5000/chrony-piico:arm64
+    image: chrony-piico
     volumes:
       - ./app:/piicodev
     environment:
